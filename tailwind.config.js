@@ -32,6 +32,13 @@ export default {
       animation: {
         shimmer: 'shimmer 1.6s infinite linear',
       },
+      opacity: {
+        2: '0.02',
+        4: '0.04',
+        6: '0.06',
+        8: '0.08',
+        15: '0.15',
+      },
       keyframes: {
         shimmer: {
           '0%':   { backgroundPosition: '-600px 0' },
